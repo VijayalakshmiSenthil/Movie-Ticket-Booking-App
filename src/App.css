@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Cormorant:ital,wght@0,300;1,300&family=Dynalight&family=Inter:wght@300&family=Josefin+Sans&family=Josefin+Slab:wght@400;600&family=Jost:wght@500&family=Lato:wght@300;400&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+  font-family: 'Lato', sans-serif;
+  background: #0000;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.navbar{
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.home-bg{
+  background-image: url('../public/images/walpaper.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+.head{
+  color:#702963;
+  font-weight: 600;
+  font-size: 20px;
+}
+.nav-link,.text{
+  color: #702963;
+}
+.nav-link{font-size: 20px;}
+.nav-link:hover{color: #301934;}
+.movies{
+  list-style: none;
+  display: inline;
+}
+.title{
+  font-size: 35px;
+  color: #702963;
+}
+.director{
+  font-size: 18px;
+}
+.btn{
+  background-color: #702963;
+  color:#fff486;
+}
+.button{
+  background-color: #9754CB;
+}
+.heading{color: #702963;font-size: 30px;}
+.row-divider,.contact,.login,.box-container,.link{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.contact{
+  height: 30rem;
+  width: 50rem;
+  background-color: #fff486;
+}
+.required::after {
+  content: ' *';
+  color: red;
+}
+.cart{
+  height: 20rem;
+  width: 50rem;
+}
+.buton{
+  background-color: grey;
+  border: none;
+  height: 2rem;
+  width: 90px;
+}
+.number{
+  background-color: #702963;
+  border: none;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
   color: white;
+  text-align: center;
 }
-
-.App-link {
-  color: #61dafb;
+.box-container{
+  border: 1px grey groove;
+  border-radius: 20px;
+  height: 30rem;
+  width: 26rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box{
+  width: 15rem;
+}
+.link{
+  float: right;
+  color: #702963;
+  text-decoration: none;
+}
+.google-button{
+  height: 3rem;
+  width: 8rem;
 }
